@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(55, 55, 197);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.container h1{
+    font-size: 120px;
+    font-family: 'Libre Baskerville', serif;
+}
+.date{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    padding: 34px 60px;
+    background-color: rgb(25, 145, 232);
+    border-radius: 10px;
+}
+.hour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
